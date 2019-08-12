@@ -1,11 +1,10 @@
-<?php
+<?php declare(strict_types = 1);
 
-declare(strict_types=1);
-
-namespace midorikocak\osman;
+namespace MidoriKocak\Osman;
 
 class SkeletonClass
 {
+
     /**
      * Create a new Skeleton Instance
      */
@@ -18,7 +17,6 @@ class SkeletonClass
      * Friendly welcome
      *
      * @param string $phrase Phrase to return
-     *
      * @return string Returns the phrase passed in
      */
     public function echoPhrase(string $phrase): string
